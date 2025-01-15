@@ -15,14 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
- <build>
-    <plugins> <!-- Wrap plugins inside this tag -->
+<build>
+    <plugins>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.0.0.4121</version>
         </plugin>
+        <!-- Other plugins can go here -->
     </plugins>
 </build>
-
 </project>
